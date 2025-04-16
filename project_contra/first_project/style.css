@@ -1,0 +1,29 @@
+  /* Custom styles */
+  :root {
+    --contra-purple: #6B46C1;
+    --contra-dark: #1A1A1A;
+}
+
+.animate-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.animate-hover:hover {
+    transform: translateY(-5px);
+}
+
+/* Dark mode styles */
+.dark {
+    background-color: var(--contra-dark);
+    color: white;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-out;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Freelance Web Developer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="fixed top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800 z-50">
+        <i class="fas fa-moon dark:text-white"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 py-20">
+        <div class="container mx-auto px-4 text-center fade-in">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 text-gray-900 dark:text-white">
+                Building Scalable Websites for Startups
+            </h1>
+            <p class="text-xl mb-8 text-gray-600 dark:text-gray-300">
+                Transforming ideas into powerful web experiences
+            </p>
+            <a href="https://contra.com/rayli_yt_23oqu29l" target="_blank" 
+               class="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors animate-hover">
+                Hire Me on Contra
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16 text-gray-900 dark:text-white">Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg animate-hover">
+                    <i class="fas fa-code text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Custom Web Development</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Crafting responsive, performant websites tailored to your needs</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg animate-hover">
+                    <i class="fas fa-search text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900 dark:text-white">SEO Optimization</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Improving your site's visibility and search engine rankings</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg animate-hover">
+                    <i class="fas fa-mobile-alt text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Mobile-First Design</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Creating seamless experiences across all devices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16 text-gray-900 dark:text-white">Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg animate-hover">
+                    <img src="photos/ecomerce_platform.png" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">E-commerce Platform</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">A full-featured online store with payment integration</p>
+                        <a href="../ecommerce_platform/index.html" class="text-purple-600 hover:text-purple-700">View Project →</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg animate-hover">
+                    <img src="photos/dashbord.png" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">SaaS Dashboard</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Analytics dashboard for SaaS application</p>
+                        <a href="../saas_dashboard/index.html" class="text-purple-600 hover:text-purple-700">View Project →</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg animate-hover">
+                    <img src="photos/protofolio.png" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Portfolio Website</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Responsive portfolio for creative professional</p>
+                        <a href="../portfolio/index.html" class="text-purple-600 hover:text-purple-700">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16 text-gray-900 dark:text-white">Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg animate-hover">
+                    <p class="text-gray-600 dark:text-gray-300 mb-6">"Outstanding work! Delivered the project on time and exceeded our expectations. Highly recommended for any web development needs."</p>
+                    <div class="flex items-center">
+                        <img src="photos/pexels-pixabay-220453.jpg" alt="Client 1" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-900 dark:text-white">John Smith</h4>
+                            <p class="text-gray-500 dark:text-gray-400">CEO, Tech Startup</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg animate-hover">
+                    <p class="text-gray-600 dark:text-gray-300 mb-6">"Great communication throughout the project. The final website is beautiful and performs excellently. Will definitely work with again!"</p>
+                    <div class="flex items-center">
+                        <img src="photos/R.jpeg" alt="Client 2" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-900 dark:text-white">Sarah Johnson</h4>
+                            <p class="text-gray-500 dark:text-gray-400">Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16 text-gray-900 dark:text-white">Get in Touch</h2>
+            <div class="max-w-lg mx-auto">
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 dark:text-gray-300 mb-2">Name</label>
+                        <input type="text" id="name" name="name" required
+                               class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-600">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 dark:text-gray-300 mb-2">Email</label>
+                        <input type="email" id="email" name="email" required
+                               class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-600">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-700 dark:text-gray-300 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" required
+                                  class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-600"></textarea>
+                    </div>
+                    <button type="submit" 
+                            class="w-full bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors animate-hover">
+                        Send Message
+                    </button>
+                </form>
+                <!-- Social Links -->
+                <div class="flex justify-center space-x-6 mt-8">
+                    <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-purple-600 transition-colors">
+                        <i class="fab fa-twitter text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
